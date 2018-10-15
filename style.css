@@ -56,8 +56,6 @@ input:checked + .slider:before {
 
 
 
-
-
 body
 {
     margin: 0;
@@ -85,12 +83,12 @@ body
 
 #fullpage section:nth-child(2)
 {
-    height: 200vh;
+    height: 100vh;
 }
 
 #fullpage section:nth-child(3)
 {
-    height: 200vh;
+    height: 100vh;
 }
 
 #fullpage section:nth-child(4)
@@ -153,4 +151,46 @@ body
 .topbar a.active {
   background-color: #48C9B0;
   color: white;
+}
+
+.icons {
+  overflow: hidden;
+  background-color: #333;
+  padding: 25px;
+}
+
+.icons a {
+    padding-left: 15%;
+}
+
+.titlename {
+  color: #333;
+  text-align: center;
+  padding: 50px 50px;
+  text-decoration: none;
+  font-size: 50px;
+  font-family: "Courier New"
+}
+
+
+.experiencecompany {
+  color: #333;
+  padding: 50px 15%;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Courier New"
+  float: right;
+}
+
+.experiencetitle {
+
+}
+
+
+.experiencedate {
+
+}
+
+.experienceinfo {
+
 }
