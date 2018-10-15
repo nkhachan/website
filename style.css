@@ -52,3 +52,105 @@ input:checked + .slider:before {
 .slider:before {
   border-radius: 50%;
 }
+
+
+
+
+
+
+body
+{
+    margin: 0;
+    padding : 0;
+    height: 100%;
+}
+
+#fullpage section h1
+{
+        margin: 0;
+        padding : 0;
+}
+
+#fullpage section:nth-child(1)
+{
+    height: 100vh;
+    /* The image used */
+    background-image: url('img/titlebgd.jpg');
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: cover;
+}
+
+
+#fullpage section:nth-child(2)
+{
+    height: 200vh;
+}
+
+#fullpage section:nth-child(3)
+{
+    height: 200vh;
+}
+
+#fullpage section:nth-child(4)
+{
+    height: 100vh;
+}
+
+
+.titlebox {
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    width: 60%;
+    height: 30%;
+    background: white;
+
+    position:absolute;
+    top:25%;
+    left:15%;
+
+    border: 3px solid black;
+    outline-style: solid;
+    opacity: 0.7;
+
+}
+
+.hi {
+    font-size: 55px;
+    font-family: "Courier New"
+}
+
+.intro {
+    font-size: 30px;
+    font-family: "Courier New"
+}
+
+
+
+.topbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 25px 25px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Courier New"
+}
+
+.topbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topbar a.active {
+  background-color: #48C9B0;
+  color: white;
+}
